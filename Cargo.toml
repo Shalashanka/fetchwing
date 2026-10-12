@@ -1,0 +1,58 @@
+[package]
+name = "fetchwing"
+version = "0.1.0"
+edition = "2021"
+description = "Fetchwing - a modern download manager (research rebuild of the JDownloader 2 idea)"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-util = "0.7"
+futures-util = "0.3"
+async-trait = "0.1"
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "stream", "json", "cookies", "socks", "gzip", "brotli", "http2"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+regex = "1"
+url = "2"
+base64 = "0.22"
+hex = "0.4"
+sha2 = "0.10"
+sha1 = "0.10"
+md-5 = "0.10"
+crc32fast = "1"
+aes = "0.8"
+ctr = "0.9"
+cbc = { version = "0.1", features = ["alloc"] }
+aes-gcm = "0.10"
+rand = "0.8"
+chrono = "0.4"
+dirs = "6"
+parking_lot = "0.12"
+axum = "0.8"
+clap = { version = "4", features = ["derive", "env"] }
+percent-encoding = "2"
+open = "5"
+eframe = { version = "0.31", default-features = false, features = ["default_fonts", "glow", "persistence", "x11", "wayland"] }
+rfd = { version = "0.15", default-features = false, features = ["xdg-portal", "tokio"] }
+egui-phosphor = { version = "0.9", features = ["regular", "fill"] }
+egui_extras = { version = "0.31", features = ["image"] }
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "gif", "webp", "bmp"] }
+arboard = "3"
+fs2 = "0.4"
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59", features = ["Win32_System_Console", "Win32_System_Threading", "Win32_System_IO", "Win32_System_Ioctl", "Win32_Foundation"] }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 4
+strip = true
+panic = "abort"
+
+[build-dependencies]
+winresource = "0.1"

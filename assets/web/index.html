@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fetchwing</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M8 40 C20 10 44 6 58 8 C46 16 40 24 36 34 L46 34 L30 58 L32 40 Z' fill='%2338bdf8'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#0f1115;--panel:#161a21;--panel2:#1d222b;--line:#272d38;--text:#e6e9ef;--dim:#8b93a3;--acc:#38bdf8;--acc2:#0ea5e9;--ok:#4ade80;--warn:#fbbf24;--err:#f87171;--r:10px}
+:root[data-theme=light]{--bg:#f5f7fa;--panel:#fff;--panel2:#eef1f5;--line:#dde2ea;--text:#1a1f2b;--dim:#5f6878;--acc:#0284c7;--acc2:#0369a1}
+*{box-sizing:border-box}html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--text);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;display:flex;flex-direction:column}
+button,input,select,textarea{font:inherit;color:inherit}
+button{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:6px 12px;cursor:pointer}
+button:hover{border-color:var(--acc)}button.p{background:var(--acc2);border-color:var(--acc2);color:#fff}
+button.g{background:none;border-color:transparent}button.g:hover{background:var(--panel2)}
+input,select,textarea{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:6px 10px;width:100%}
+textarea{min-height:140px;font-family:ui-monospace,Consolas,monospace;font-size:13px}
+header{display:flex;align-items:center;gap:12px;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel)}
+.logo{font-weight:700;font-size:17px;display:flex;gap:8px;align-items:center}.logo svg{width:22px}
+.speed{margin-left:auto;display:flex;gap:16px;align-items:center;color:var(--dim)}.speed b{color:var(--text);font-variant-numeric:tabular-nums}
+main{flex:1;display:flex;min-height:0}
+nav{width:200px;border-right:1px solid var(--line);padding:10px;display:flex;flex-direction:column;gap:2px;background:var(--panel)}
+nav a{padding:8px 12px;border-radius:8px;cursor:pointer;display:flex;justify-content:space-between;color:var(--dim)}
+nav a.on,nav a:hover{background:var(--panel2);color:var(--text)}nav .n{background:var(--panel2);border-radius:20px;padding:0 8px;font-size:12px}nav a.on .n{background:var(--acc2);color:#fff}
+#view{flex:1;overflow:auto;padding:16px}
+.bar{display:flex;gap:8px;align-items:center;margin-bottom:12px;flex-wrap:wrap}.bar input{max-width:280px}
+.pkg{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);margin-bottom:10px;overflow:hidden}
+.ph{display:flex;align-items:center;gap:10px;padding:10px 12px;cursor:pointer}.ph .t{font-weight:600}.ph .m{color:var(--dim);font-size:12px;margin-left:auto}
+.row{display:grid;grid-template-columns:22px 1fr 110px 140px 90px 120px;gap:10px;align-items:center;padding:7px 12px;border-top:1px solid var(--line)}
+.row:hover{background:var(--panel2)}.row.sel{background:color-mix(in srgb,var(--acc) 14%,transparent)}
+.nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.sub{color:var(--dim);font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pb{height:6px;background:var(--panel2);border-radius:3px;overflow:hidden}.pb i{display:block;height:100%;background:var(--acc)}
+.st{font-size:12px;padding:2px 8px;border-radius:20px;background:var(--panel2);text-align:center}
+.st.finished{color:var(--ok)}.st.failed,.st.offline{color:var(--err)}.st.downloading{color:var(--acc)}.st.waiting,.st.captcha{color:var(--warn)}
+.hint{color:var(--warn);font-size:12px}
+.empty{color:var(--dim);text-align:center;padding:60px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px;margin-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px}
+.set{display:grid;grid-template-columns:260px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}.set .h{color:var(--dim);font-size:12px}
+dialog{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:14px;padding:20px;width:min(640px,92vw)}
+dialog::backdrop{background:#0008}
+.toasts{position:fixed;right:16px;bottom:16px;display:flex;flex-direction:column;gap:8px;z-index:9}
+.toast{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:10px;padding:10px 14px;max-width:360px;box-shadow:0 8px 24px #0006}
+.toast.error{border-left-color:var(--err)}.toast.success{border-left-color:var(--ok)}.toast.warning,.toast.captcha{border-left-color:var(--warn)}
+.log{font-family:ui-monospace,Consolas,monospace;font-size:12px;white-space:pre-wrap}
+.drop{position:fixed;inset:0;background:color-mix(in srgb,var(--acc) 20%,transparent);border:3px dashed var(--acc);display:none;align-items:center;justify-content:center;font-size:24px;z-index:8}
+@media(max-width:800px){nav{display:none}.row{grid-template-columns:22px 1fr 90px}.row>:nth-child(4),.row>:nth-child(5),.row>:nth-child(6){display:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><svg viewBox="0 0 64 64"><path d="M8 40 C20 10 44 6 58 8 C46 16 40 24 36 34 L46 34 L30 58 L32 40 Z" fill="var(--acc)"/></svg>Fetchwing</div>
+  <button class="p" onclick="openAdd()">＋ Add links</button>
+  <button id="toggle" onclick="toggleRun()">Pause</button>
+  <div class="speed"><span>↓ <b id="spd">0 B/s</b></span><span>Active <b id="act">0</b></span><span>ETA <b id="eta">–</b></span>
+    <select id="lim" style="width:auto" onchange="setLimit(this.value)"><option value="0">No limit</option><option value="524288">512 KB/s</option><option value="1048576">1 MB/s</option><option value="5242880">5 MB/s</option><option value="10485760">10 MB/s</option><option value="52428800">50 MB/s</option></select></div>
+</header>
+<main>
+  <nav id="nav"></nav>
+  <section id="view"></section>
+</main>
+<div class="toasts" id="toasts"></div>
+<div class="drop" id="drop">Drop links to add them</div>
+<dialog id="add"><h3 style="margin-top:0">Add links</h3>
+  <p class="sub">Paste anything: URLs, forum posts, HTML. Folders, playlists and pages are crawled. Ctrl+V anywhere opens this.</p>
+  <textarea id="addText" placeholder="https://…"></textarea>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px">
+    <input id="addPkg" placeholder="Package name (optional)"><input id="addPw" placeholder="Archive password (optional)">
+  </div>
+  <label style="display:flex;gap:8px;margin-top:10px;align-items:center"><input type="checkbox" id="addInbox" style="width:auto"> Review in Inbox first (don't auto-start)</label>
+  <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:14px"><button onclick="add.close()">Cancel</button><button class="p" onclick="doAdd()">Add</button></div>
+</dialog>
+<script>
+const TOKEN = window.__FW_TOKEN__ || localStorage.getItem('fwToken') || (()=>{const t=prompt('Fetchwing access token (Settings → Remote access)');if(t)localStorage.setItem('fwToken',t);return t})();
+const S = {links:new Map(), packages:new Map(), stats:{}, captchas:[], accounts:[], settings:{}, schema:[], sys:{}, view:'downloads', tab:'queue', sel:new Set(), filter:'', plugins:null, log:[]};
+const api = async (m,p,b) => { const r = await fetch('/api'+p,{method:m,headers:{authorization:'Bearer '+TOKEN,'content-type':'application/json'},body:b?JSON.stringify(b):undefined}); const j = await r.json().catch(()=>({})); if(!r.ok){toast({kind:'error',title:'Error',body:j.error||r.status});throw j} return j };
+const fmt = n => { if(n<0||n==null) return '?'; const u=['B','KB','MB','GB','TB']; let i=0; while(n>=1024&&i<4){n/=1024;i++} return (i?n.toFixed(n<10?2:1):n)+' '+u[i] };
+const dur = s => s<0?'–':s>=3600?`${Math.floor(s/3600)}h ${String(Math.floor(s%3600/60)).padStart(2,'0')}m`:s>=60?`${Math.floor(s/60)}m ${String(s%60).padStart(2,'0')}s`:`${s}s`;
+const esc = s => String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let dirty=false; const render=()=>{ if(!dirty){dirty=true;requestAnimationFrame(()=>{dirty=false;draw()})} };
+
+async function load(){ const s = await api('GET','/state'); S.links=new Map(s.links.map(l=>[l.id,l])); S.packages=new Map(s.packages.map(p=>[p.id,p])); Object.assign(S,{stats:s.stats,captchas:s.captchas,accounts:s.accounts,settings:s.settings,schema:s.schema,sys:s.sys}); document.documentElement.dataset.theme=s.settings['ui.theme']; render() }
+function sse(){ const es = new EventSource('/api/events?token='+encodeURIComponent(TOKEN));
+  es.addEventListener('links',e=>{for(const l of JSON.parse(e.data))S.links.set(l.id,l);render()});
+  es.addEventListener('links_removed',e=>{for(const id of JSON.parse(e.data))S.links.delete(id);render()});
+  es.addEventListener('packages',e=>{for(const p of JSON.parse(e.data))S.packages.set(p.id,p);render()});
+  es.addEventListener('packages_removed',e=>{for(const id of JSON.parse(e.data))S.packages.delete(id);render()});
+  es.addEventListener('stats',e=>{S.stats=JSON.parse(e.data);render()});
+  es.addEventListener('notify',e=>toast(JSON.parse(e.data)));
+  es.addEventListener('captcha_new',e=>{S.captchas.push(JSON.parse(e.data));render()});
+  es.addEventListener('captcha_done',e=>{const d=JSON.parse(e.data);S.captchas=S.captchas.filter(c=>c.id!==d.id);render()});
+  es.addEventListener('log',e=>{S.log.push(JSON.parse(e.data));if(S.log.length>500)S.log.shift();if(S.view==='log')render()});
+  ['accounts','settings','resync'].forEach(k=>es.addEventListener(k,()=>load()));
+  es.onerror=()=>{es.close();setTimeout(sse,3000)} }
+function toast(n){ const d=document.createElement('div'); d.className='toast '+(n.kind||''); d.innerHTML=`<b>${esc(n.title)}</b><div class=sub>${esc(n.body)}</div>`; toasts.append(d); setTimeout(()=>d.remove(),6000);
+  if(n.kind==='captcha'&&document.hidden&&Notification.permission==='granted') new Notification('Fetchwing: '+n.title,{body:n.body}) }
+
+const VIEWS=[['downloads','Downloads'],['captchas','Captchas'],['accounts','Accounts'],['plugins','Plugins'],['settings','Settings'],['log','Log']];
+function draw(){
+  const st=S.stats; spd.textContent=fmt(st.speed||0)+'/s'; act.textContent=st.active||0; eta.textContent=dur(st.eta??-1);
+  toggle.textContent=st.paused?'▶ Start':'⏸ Pause'; toggle.className=st.paused?'p':''; lim.value=String(S.settings['downloads.speedLimit']||0);
+  const counts={downloads:st.queued+st.active+st.waiting,captchas:S.captchas.length};
+  nav.innerHTML=VIEWS.map(([k,t])=>`<a class="${S.view===k?'on':''}" onclick="go('${k}')">${t}${counts[k]?`<span class=n>${counts[k]}</span>`:''}</a>`).join('');
+  ({downloads:drawDownloads,captchas:drawCaptchas,accounts:drawAccounts,plugins:drawPlugins,settings:drawSettings,log:drawLog})[S.view]();
+}
+function go(v){S.view=v;if(v==='plugins'&&!S.plugins)api('GET','/plugins').then(p=>{S.plugins=p;render()});if(v==='log')api('GET','/log').then(l=>{S.log=l;render()});render()}
+
+function drawDownloads(){
+  const st=S.stats; const tabs=[['inbox',`Inbox (${st.inbox||0})`],['queue','Queue'],['done',`Done (${st.finished||0})`]];
+  const q=S.filter.toLowerCase(); const byPkg=new Map();
+  for(const l of S.links.values()){ if(l.stage!==S.tab) continue; if(q&&!l.name.toLowerCase().includes(q)&&!l.host.includes(q)) continue; (byPkg.get(l.package_id)||byPkg.set(l.package_id,[]).get(l.package_id)).push(l) }
+  const pk=[...byPkg.keys()].map(id=>S.packages.get(id)).filter(Boolean).sort((a,b)=>b.priority-a.priority||a.order-b.order);
+  let h=`<div class=bar>${tabs.map(([k,t])=>`<button class="${S.tab===k?'p':''}" onclick="S.tab='${k}';S.sel.clear();render()">${t}</button>`).join('')}
+    <input placeholder="Filter…" value="${esc(S.filter)}" oninput="S.filter=this.value;render()">
+    <span style="flex:1"></span>${S.sel.size?`<span class=sub>${S.sel.size} selected</span>
+    ${S.tab==='inbox'?`<button class=p onclick="act('confirm')">Start selected</button>`:''}<button onclick="act('force')">Force start</button><button onclick="act('pause')">Pause</button><button onclick="act('resume')">Retry/Resume</button><button onclick="act('reset')">Reset</button><button onclick="act('remove')">Remove</button>`:
+    S.tab==='inbox'&&st.inbox?`<button class=p onclick="confirmAll()">Start all</button>`:S.tab==='done'?`<button onclick="api('POST','/cleanup',{what:'finished'})">Clear finished</button>`:''}</div>`;
+  if(!pk.length) h+=`<div class=empty>${S.tab==='inbox'?'Nothing waiting for review.':S.tab==='queue'?'No downloads. Paste links anywhere (Ctrl+V) or drop them here.':'Nothing finished yet.'}</div>`;
+  for(const p of pk){ const ls=byPkg.get(p.id).sort((a,b)=>a.added_at-b.added_at); const done=ls.reduce((a,l)=>a+Math.max(0,l.bytes_done),0), tot=ls.reduce((a,l)=>a+Math.max(0,l.size),0); const sp=ls.reduce((a,l)=>a+(l.speed||0),0);
+    h+=`<div class=pkg><div class=ph onclick="togglePkg('${p.id}')"><span>${p.expanded?'▾':'▸'}</span><span class=t>${esc(p.name)}</span><span class=sub>${ls.length} file(s)</span>
+      <span class=m>${fmt(done)} / ${fmt(tot)}${sp?' · '+fmt(sp)+'/s':''} · ${esc(p.dir)}</span>
+      <button class=g title="Extract" onclick="event.stopPropagation();api('POST','/packages/action',{action:'extract',ids:['${p.id}']})">⇲</button>
+      <button class=g title="Open folder" onclick="event.stopPropagation();api('POST','/open',{path:${esc(JSON.stringify(p.dir))}})">📂</button></div>`;
+    if(p.expanded) for(const l of ls){ const pct=l.size>0?Math.min(100,l.bytes_done/l.size*100):l.status==='finished'?100:0; const w=l.wait_until?Math.max(0,Math.round((l.wait_until-Date.now())/1000)):0;
+      h+=`<div class="row ${S.sel.has(l.id)?'sel':''}" onclick="sel(event,'${l.id}')"><span>${l.enabled?'':'⊘'}</span>
+        <div><div class=nm title="${esc(l.url)}">${esc(l.name)}</div><div class=sub>${esc(l.host)}${l.message?' · '+esc(l.message):''}${w?` · ${dur(w)}`:''}</div>${l.error?.hint?`<div class=hint>→ ${esc(l.error.hint)}</div>`:''}</div>
+        <span class="st ${l.status}">${l.status}</span><div><div class=pb><i style="width:${pct}%"></i></div><div class=sub>${pct.toFixed(1)}%</div></div>
+        <span class=sub>${l.speed?fmt(l.speed)+'/s':''}</span><span class=sub>${fmt(l.size)}</span></div>` } h+='</div>' }
+  view.innerHTML=h;
+}
+function sel(e,id){ if(!e.ctrlKey&&!e.metaKey&&!e.shiftKey) S.sel.clear(); S.sel.has(id)?S.sel.delete(id):S.sel.add(id); render() }
+function togglePkg(id){ const p=S.packages.get(id); p.expanded=!p.expanded; api('PATCH','/packages/'+id,{expanded:p.expanded}); render() }
+function act(a){ api('POST','/links/action',{action:a,ids:[...S.sel],deleteFiles:false}); if(a==='remove'||a==='confirm')S.sel.clear() }
+function confirmAll(){ api('POST','/links/action',{action:'confirm',ids:[...S.links.values()].filter(l=>l.stage==='inbox').map(l=>l.id)}) }
+function toggleRun(){ api('POST','/control',{action:S.stats.paused?'start':'pause'}) }
+function setLimit(v){ api('POST','/control',{speedLimit:Number(v)}) }
+function openAdd(text){ addText.value=text||''; add.showModal(); addText.focus() }
+async function doAdd(){ const r=await api('POST','/links',{text:addText.value,packageName:addPkg.value,passwords:addPw.value,autoStart:addInbox.checked?false:undefined,source:'web'}); add.close(); addPkg.value=addPw.value=''; toast({title:'Crawling links…',body:'They appear as soon as they are found.'}) }
+
+function drawCaptchas(){
+  view.innerHTML=S.captchas.length?S.captchas.map(c=>`<div class=card><b>${esc(c.host)}</b> <span class=sub>${esc(c.request.type)} · expires in ${dur(Math.max(0,Math.round((c.expires_at-Date.now())/1000)))}</span>
+    ${c.request.type==='image'?`<div style="margin:10px 0"><img src="${c.request.image}" style="max-width:100%;image-rendering:pixelated;min-height:50px;background:#fff;border-radius:6px"></div>
+    <div class=bar><input id="cap-${c.id}" placeholder="Type the characters" onkeydown="if(event.key==='Enter')solve('${c.id}')"><button class=p onclick="solve('${c.id}')">Submit</button><button onclick="api('POST','/captchas/${c.id}',{skip:true})">Skip</button></div>`:
+    `<p class=sub>This is a ${esc(c.request.type)} challenge for <a href="${esc(c.request.page_url)}" target=_blank>${esc(c.request.page_url)}</a>. Solve it in your browser with the Fetchwing extension, configure a solver service in Settings → Captcha, or paste a token.</p>
+    <div class=bar><input id="cap-${c.id}" placeholder="token"><button class=p onclick="solve('${c.id}')">Submit token</button><button onclick="api('POST','/captchas/${c.id}',{skip:true})">Skip</button></div>`}</div>`).join(''):'<div class=empty>No captchas waiting. They never pop up over your games or videos — they queue here.</div>';
+}
+function solve(id){ const v=document.getElementById('cap-'+id).value.trim(); if(v) api('POST','/captchas/'+id,{value:v}) }
+
+function drawAccounts(){
+  view.innerHTML=`<div class=card><b>Add account</b><p class=sub>For debrid services (Real-Debrid, AllDebrid, Premiumize, TorBox) put your <b>API token</b> in the password field — it then unlocks every hoster the service supports.</p>
+   <div style="display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:8px"><input id=ah placeholder="host, e.g. real-debrid.com" list=hosts><input id=au placeholder="user (optional for tokens)"><input id=ap type=password placeholder="password / API token"><button class=p onclick="api('POST','/accounts',{host:ah.value,user:au.value,password:ap.value}).then(()=>{ap.value='';load()})">Add</button></div>
+   <datalist id=hosts><option>real-debrid.com</option><option>alldebrid.com</option><option>premiumize.me</option><option>torbox.app</option><option>1fichier.com</option><option>mega.nz</option></datalist></div>`+
+   (S.accounts.map(a=>`<div class=card style="display:flex;gap:12px;align-items:center"><div style="flex:1"><b>${esc(a.host)}</b> <span class=sub>${esc(a.user)}</span><div class=sub>${esc(a.status)}${a.premium?' · premium':''}${a.valid_until?' · until '+new Date(a.valid_until).toLocaleDateString():''}${a.supported_hosts?.length?' · '+a.supported_hosts.length+' hosts':''} ${esc(a.message||'')}</div></div>
+     <button onclick="api('PATCH','/accounts/${a.id}',{enabled:${!a.enabled}}).then(load)">${a.enabled?'Disable':'Enable'}</button><button onclick="api('POST','/accounts/${a.id}/check').then(load)">Check</button><button onclick="api('DELETE','/accounts/${a.id}').then(load)">Remove</button></div>`).join('')||'<div class=empty>No accounts.</div>');
+}
+function drawPlugins(){
+  const p=S.plugins; if(!p){view.innerHTML='<div class=empty>Loading…</div>';return}
+  const q=S.filter.toLowerCase(); const list=p.plugins.filter(x=>!q||x.id.includes(q)||x.domains.some(d=>d.includes(q)));
+  view.innerHTML=`<div class=bar><input placeholder="Search plugins or domains…" value="${esc(S.filter)}" oninput="S.filter=this.value;render()"><span class=sub>${p.plugins.length} plugins · templates: ${p.templates.xfs} XFS, ${p.templates.yetishare} YetiShare, ${p.templates.kvs} KVS · user plugins: ${esc(p.userDir)}</span><button onclick="api('POST','/plugins/reload').then(()=>api('GET','/plugins')).then(x=>{S.plugins=x;render()})">Reload</button></div>
+   ${p.errors.map(e=>`<div class="card hint">${esc(e)}</div>`).join('')}<div class=grid>${list.slice(0,300).map(x=>`<div class=card><b>${esc(x.name)}</b> <span class=sub>${x.kind} · ${esc(x.version)} · ${x.source}${x.multihost?' · debrid':''}</span><div class=sub>${esc(x.domains.slice(0,4).join(', '))}${x.domains.length>4?' …':''}</div><div class=sub>${esc(x.description||'')}</div></div>`).join('')}</div>`;
+}
+function drawSettings(){
+  const q=S.filter.toLowerCase(); const groups={};
+  for(const d of S.schema){ if(q&&!(d.label+d.key+d.help).toLowerCase().includes(q)) continue; (groups[d.group]=groups[d.group]||[]).push(d) }
+  let h=`<div class=bar><input placeholder="Search settings…" value="${esc(S.filter)}" oninput="S.filter=this.value;render()"><span class=sub>yt-dlp: ${esc(S.sys.ytdlp||'not found')} · 7-Zip: ${S.sys.seven_zip?'ok':'not found'}</span><button onclick="api('POST','/tools/ytdlp').then(load)">Update yt-dlp</button></div>`;
+  for(const [g,ds] of Object.entries(groups)){ h+=`<div class=card><b>${esc(g)}</b>`; for(const d of ds){ const v=S.settings[d.key]; let inp;
+    if(d.kind==='bool') inp=`<input type=checkbox style="width:auto" ${v?'checked':''} onchange="setS('${d.key}',this.checked)">`;
+    else if(d.kind==='enum') inp=`<select onchange="setS('${d.key}',this.value)">${d.options.map(([k,t])=>`<option value="${esc(k)}" ${k===v?'selected':''}>${esc(t)}</option>`).join('')}</select>`;
+    else if(d.kind==='list') inp=`<textarea style="min-height:60px" onchange="setS('${d.key}',this.value)">${esc((v||[]).join('\n'))}</textarea>`;
+    else inp=`<input type="${d.kind==='secret'?'password':d.kind==='number'?'number':'text'}" value="${esc(v)}" onchange="setS('${d.key}',${d.kind==='number'?'Number(this.value)':'this.value'})">`;
+    h+=`<div class=set><div>${esc(d.label)}${d.unit?` <span class=sub>(${esc(d.unit)})</span>`:''}<div class=h>${esc(d.help)}</div></div><div>${inp}</div></div>` } h+='</div>' }
+  view.innerHTML=h;
+}
+async function setS(k,v){ const r=await api('PUT','/settings',{[k]:v}); if(r.errors[k]) toast({kind:'error',title:'Invalid value',body:r.errors[k]}); S.settings=r.values; if(k==='ui.theme')document.documentElement.dataset.theme=v }
+function drawLog(){ view.innerHTML=`<div class="card log">${S.log.slice(-400).reverse().map(l=>`${new Date(l.t).toLocaleTimeString()} ${l.level.toUpperCase().padEnd(5)} [${esc(l.scope)}] ${esc(l.msg)}`).join('\n')}</div>` }
+
+document.addEventListener('paste',e=>{ if(e.target.closest('input,textarea'))return; const t=e.clipboardData.getData('text'); if(/https?:|www\./i.test(t)){e.preventDefault();openAdd(t)} });
+document.addEventListener('dragover',e=>{e.preventDefault();drop.style.display='flex'}); document.addEventListener('dragleave',e=>{if(!e.relatedTarget)drop.style.display='none'});
+document.addEventListener('drop',e=>{e.preventDefault();drop.style.display='none';const t=e.dataTransfer.getData('text/uri-list')||e.dataTransfer.getData('text');if(t)openAdd(t)});
+document.addEventListener('keydown',e=>{ if(e.target.closest('input,textarea,select'))return; if(e.key==='Delete'&&S.sel.size)act('remove'); if(e.key===' '&&S.view==='downloads'){e.preventDefault();toggleRun()} if(e.key==='a'&&(e.ctrlKey||e.metaKey)&&S.view==='downloads'){e.preventDefault();for(const l of S.links.values())if(l.stage===S.tab)S.sel.add(l.id);render()} });
+setInterval(()=>{if(S.view==='downloads'||S.view==='captchas')render()},1000);
+if('Notification' in window&&Notification.permission==='default') Notification.requestPermission();
+load().then(sse);
+</script>
+</body>
+</html>

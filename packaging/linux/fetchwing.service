@@ -1,0 +1,11 @@
+# systemd user service for headless use:  cp fetchwing.service ~/.config/systemd/user/ && systemctl --user enable --now fetchwing
+[Unit]
+Description=Fetchwing download manager (headless)
+After=network-online.target
+
+[Service]
+ExecStart=%h/.local/bin/fetchwing --headless
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

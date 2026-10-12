@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Fetchwing
+GenericName=Download Manager
+Comment=Modern download manager
+Exec=@BIN@ %U
+Icon=fetchwing
+Terminal=false
+Categories=Network;FileTransfer;
+Keywords=download;manager;hoster;debrid;

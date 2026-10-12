@@ -1,0 +1,4458 @@
+{
+ "XFileSharingProBasic": [
+  {
+   "id": "AbstreamTo",
+   "domains": [
+    "abstream.to"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "AnafastOrg",
+   "domains": [
+    "anafast.org"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "AniStreamCom",
+   "domains": [
+    "ani-stream.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "AnonfileDe",
+   "domains": [
+    "anonfile.de"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "ApkadminCom",
+   "domains": [
+    "apkadmin.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "AsfileAl",
+   "domains": [
+    "asfile.al"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "BeatexsCom",
+   "domains": [
+    "beatexs.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "BezsmsOrg",
+   "domains": [
+    "bezsms.org"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "BigwarpIo",
+   "domains": [
+    "bigwarp.pro",
+    "bigwarp.io",
+    "bigwarp.art",
+    "bigwarp.cc"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "BrUploadNet",
+   "domains": [
+    "brupload.net"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 1
+  },
+  {
+   "id": "BrainzapsTv",
+   "domains": [
+    "brainzaps.tv"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "BtafileCom",
+   "domains": [
+    "btafile.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": 1
+  },
+  {
+   "id": "CdnplusOrg",
+   "domains": [
+    "cdnplus.org"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "ClicknplayTo",
+   "domains": [
+    "clicknplay.to"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "ClicknuploadOrg",
+   "domains": [
+    "clicknupload.click",
+    "clicknupload.link",
+    "clicknupload.red",
+    "clicknupload.to",
+    "clicknupload.cc",
+    "clicknupload.co",
+    "clicknupload.org",
+    "clicknupload.com",
+    "clicknupload.me",
+    "clicknupload.club",
+    "clicknupload.online",
+    "clicknupload.download",
+    "clicknupload.vip",
+    "clicknupload.site",
+    "clicknupload.xyz",
+    "clicknupload.one",
+    "clicknupload.name",
+    "clicknupload.space",
+    "clickndownload.org",
+    "clickndownload.space",
+    "clickndownload.click",
+    "clickndownload.link",
+    "clickndownload.site",
+    "clickndownload.online",
+    "clicknupload.cfd",
+    "clickndownload.cloud",
+    "clickndownload.cfd"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 3
+  },
+  {
+   "id": "CloubixCom",
+   "domains": [
+    "cloubix.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "CloudShareIn",
+   "domains": [
+    "cloud-share.in"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": 1
+  },
+  {
+   "id": "CloudghostNet",
+   "domains": [
+    "cloudghost.net",
+    "elephantafiles.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "CloudhungerCom",
+   "domains": [
+    "cloudhunger.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "CosmoBoxOrg",
+   "domains": [
+    "cosmobox.org"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": 1,
+   "custom": [
+    "checkErrors",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "CrockDownCom",
+   "domains": [
+    "crockdown.com"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": 1
+  },
+  {
+   "id": "DailyuploadsNet",
+   "domains": [
+    "dailyuploads.net",
+    "dailyuploads.cc",
+    "dailyuploads.im",
+    "dailyuploads.in",
+    "dailyuploads.io"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 8,
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "DaofileCom",
+   "domains": [
+    "daofile.com",
+    "dsht.link"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": 1
+  },
+  {
+   "id": "DarkiboxCom",
+   "domains": [
+    "darkibox.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "DashfileNet",
+   "domains": [
+    "dashfile.net"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "DatanodesTo",
+   "domains": [
+    "datanodes.to"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors",
+    "findFormDownload1Free",
+    "findFormDownload2Free",
+    "getDllink",
+    "handleCaptcha",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "DatavaultsCo",
+   "domains": [
+    "datavaults.co"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "DdownloadCom",
+   "domains": [
+    "ddownload.com",
+    "ddl.to",
+    "api.ddl.to",
+    "esimpurcuesc.ddownload.com",
+    "ucdn.to"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "custom": [
+    "checkErrors",
+    "doFree",
+    "handleCaptcha",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "DeltabitCo",
+   "domains": [
+    "deltabit.co"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "DepicMe",
+   "domains": [
+    "depic.me"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "DesiuploadCo",
+   "domains": [
+    "desiupload.co"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "DlFileCom",
+   "domains": [
+    "dl-file.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "DoodstreamCom",
+   "domains": [
+    "dood.re",
+    "doods.pro",
+    "dood.so",
+    "doodstream.com",
+    "dood.to",
+    "doodapi.com",
+    "dood.watch",
+    "dood.cx",
+    "doodstream.co",
+    "dood.la",
+    "dood.ws",
+    "dood.pm",
+    "dood.sh",
+    "dood.one",
+    "dood.tech",
+    "dood.wf",
+    "dood.yt",
+    "dooood.com",
+    "ds2play.com",
+    "ds2video.com",
+    "d0o0d.com",
+    "do0od.com",
+    "d0000d.com",
+    "d000d.com",
+    "dood.li",
+    "dood.work",
+    "dooodster.com",
+    "vidply.com",
+    "do7go.com",
+    "all3do.com",
+    "doply.net",
+    "vide0.net",
+    "vvide0.com",
+    "d-s.io",
+    "dsvplay.com",
+    "myvidplay.com",
+    "playmogo.com"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": 10,
+   "custom": [
+    "doFree"
+   ]
+  },
+  {
+   "id": "DosyaCo",
+   "domains": [
+    "dosya.co"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "DownloadAniMe",
+   "domains": [
+    "downloadani.me"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": -1
+  },
+  {
+   "id": "DownloadwellaCom",
+   "domains": [
+    "downloadwella.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "DownupSpace",
+   "domains": [
+    "downup.me",
+    "downup.space",
+    "dwp.la"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "DroploadIo",
+   "domains": [
+    "dropload.io",
+    "dropload.tv",
+    "dropload.pro",
+    "dropload.co",
+    "dr0pstream.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "DuploadNet",
+   "domains": [
+    "dupload.net",
+    "dupload.org",
+    "dupload.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "EarnvidsCom",
+   "domains": [
+    "earnvids.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "EasybytezOrg",
+   "domains": [
+    "easybytez.org"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "ElitefileNet",
+   "domains": [
+    "elitefile.net",
+    "elfile.net"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "EmbedriseCom",
+   "domains": [
+    "embedrise.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "EuropeupCom",
+   "domains": [
+    "europeup.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 4,
+   "custom": [
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "ExLoadCom",
+   "domains": [
+    "ex-load.com"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": 1,
+   "custom": [
+    "handleCaptcha",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "EzvnNet",
+   "domains": [
+    "ezvn.net"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FappicCom",
+   "domains": [
+    "fappic.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FastDownCom",
+   "domains": [
+    "down.fast-down.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors",
+    "findFormDownload2Free",
+    "getDllink"
+   ]
+  },
+  {
+   "id": "FastbitCc",
+   "domains": [
+    "fastbit.cc"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": 1
+  },
+  {
+   "id": "FastfileCc",
+   "domains": [
+    "fastfile.cc"
+   ],
+   "maxChunks": 1,
+   "custom": [
+    "checkErrors",
+    "getDllink"
+   ]
+  },
+  {
+   "id": "FastreamTo",
+   "domains": [
+    "fastream.to"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FasttGg",
+   "domains": [
+    "fastt.gg"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FileAl",
+   "domains": [
+    "file.al",
+    "1f.al"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": -1,
+   "custom": [
+    "findFormDownload1Free"
+   ]
+  },
+  {
+   "id": "FileMeTop",
+   "domains": [
+    "file-me.top"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FileaxaCom",
+   "domains": [
+    "fileaxa.com"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FilebladeCom",
+   "domains": [
+    "fileblade.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FileddCom",
+   "domains": [
+    "filedd.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": 1,
+   "custom": [
+    "checkErrors"
+   ]
+  },
+  {
+   "id": "FiledotXyz",
+   "domains": [
+    "filedot.to",
+    "filedot.top",
+    "filedot.xyz"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FilefoxCc",
+   "domains": [
+    "filefox.cc"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": 1,
+   "custom": [
+    "checkErrors",
+    "findFormDownload1Free",
+    "getDllink",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "FilekeeperNet",
+   "domains": [
+    "filekeeper.net"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "findFormDownload2Free",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "FilelandIo",
+   "domains": [
+    "fileland.io"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FilepvCom",
+   "domains": [
+    "filepv.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FileqNet",
+   "domains": [
+    "fileq.net"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FilerisCom",
+   "domains": [
+    "fileris.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FileserveCom",
+   "domains": [
+    "fileserve.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": 1,
+   "custom": [
+    "checkErrors"
+   ]
+  },
+  {
+   "id": "FilespaceCom",
+   "domains": [
+    "filespace.com",
+    "spaceforfiles.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 1,
+   "custom": [
+    "checkErrors",
+    "findFormDownload1Free",
+    "findFormDownload2Free",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "FilespayoutCom",
+   "domains": [
+    "filespayout.com",
+    "filespayouts.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "FilestoreMe",
+   "domains": [
+    "filestore.me"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "FileupOrg",
+   "domains": [
+    "file-upload.org",
+    "file-up.org",
+    "file-up.io",
+    "file-up.cc",
+    "file-up.com",
+    "file-upload.io",
+    "file-upload.cc",
+    "file-upload.com",
+    "file-upload.download"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "doFree",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "FileuploadPw",
+   "domains": [
+    "fileupload.pw"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FilextrasCom",
+   "domains": [
+    "filextras.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FilezzCloud",
+   "domains": [
+    "filezz.cloud"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FilozNet",
+   "domains": [
+    "filoz.net"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FireGetCom",
+   "domains": [
+    "fireget.com"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": 1
+  },
+  {
+   "id": "FirefilesOrg",
+   "domains": [
+    "firefiles.org"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FlashbitCc",
+   "domains": [
+    "flashbit.cc"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FlexyStream",
+   "domains": [
+    "flexy.stream"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FlorenfileCom",
+   "domains": [
+    "florenfile.com",
+    "lafile.com"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors",
+    "getDllink"
+   ]
+  },
+  {
+   "id": "ForafileCom",
+   "domains": [
+    "forafile.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "FreedlInk",
+   "domains": [
+    "freedl.ink",
+    "frdl.to",
+    "frdl.io",
+    "frdl.is",
+    "frdl.my"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "findFormDownload1Free",
+    "findFormDownload2Free",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "FsvidLol",
+   "domains": [
+    "fsvid.lol"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "GigaDownCom",
+   "domains": [
+    "down.mdiaload.com",
+    "filedown.org",
+    "giga-down.com",
+    "earn4files.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors",
+    "findFormDownload2Free"
+   ]
+  },
+  {
+   "id": "GoodstreamUno",
+   "domains": [
+    "goodstream.one",
+    "goodstream.uno"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "GulfUpCom",
+   "domains": [
+    "gulf-up.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "HarefileCom",
+   "domains": [
+    "harefile.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 1
+  },
+  {
+   "id": "HdVkCom",
+   "domains": [
+    "hd-vk.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "HdvidTv",
+   "domains": [
+    "hdbestvd.online",
+    "hdvid.tv",
+    "hdvid.fun",
+    "hdthevid.online"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": 1
+  },
+  {
+   "id": "HexloadCom",
+   "domains": [
+    "hexload.com",
+    "hexupload.net",
+    "hexupload.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "findFormDownload1Free",
+    "getDllink"
+   ]
+  },
+  {
+   "id": "Hot4shareCom",
+   "domains": [
+    "hot4share.com"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": 1
+  },
+  {
+   "id": "HotlinkCc",
+   "domains": [
+    "hotlink.cc",
+    "redirect.codes"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "doFree",
+    "findFormDownload1Free",
+    "findFormDownload2Free",
+    "getDllink",
+    "handlePremium",
+    "regexWaittime",
+    "requestFileInformation"
+   ]
+  },
+  {
+   "id": "HxfileCo",
+   "domains": [
+    "hxfile.co"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "ImagetwistCom",
+   "domains": [
+    "imagetwist.com",
+    "croea.com",
+    "imageshimage.com",
+    "imagexport.com",
+    "imagenpic.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "ImagetwistCom_phun",
+   "domains": [
+    "phun.imagetwist.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "ImgSpiceCom",
+   "domains": [
+    "imgspice.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "ImgbaronCom",
+   "domains": [
+    "imgbaron.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "ImgnovaCc",
+   "domains": [
+    "imgnova.cc"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "ImgpvCom",
+   "domains": [
+    "imgpv.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "IndiShareMe",
+   "domains": [
+    "indishare.org",
+    "indishare.cc",
+    "indi-share.com",
+    "indishare.co",
+    "indishare.com",
+    "indishare.me",
+    "india-share.com",
+    "news4town.com",
+    "down-indi1.com"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors",
+    "findFormDownload1Free"
+   ]
+  },
+  {
+   "id": "IsraCloud",
+   "domains": [
+    "isra.cloud",
+    "isracloud.com"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": 1,
+   "custom": [
+    "checkErrors"
+   ]
+  },
+  {
+   "id": "KatfileCom",
+   "domains": [
+    "katfile.biz",
+    "katfile.space",
+    "katfile.ws",
+    "katfile.vip",
+    "katfile.online",
+    "katfile.cloud",
+    "katfile.com"
+   ],
+   "maxChunks": 1,
+   "custom": [
+    "doFree",
+    "findFormDownload1Free",
+    "findFormDownload2Free",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "KenfilesCom",
+   "domains": [
+    "kenfiles.com",
+    "kfs.space"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": 1,
+   "custom": [
+    "doFree",
+    "findFormDownload2Free",
+    "getDllink",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "LarhuCom",
+   "domains": [
+    "larhu.website",
+    "larhu.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "LoadstarClub",
+   "domains": [
+    "loadstar.club"
+   ],
+   "maxChunks": 0,
+   "maxDownloads": 1
+  },
+  {
+   "id": "LulustreamCom",
+   "domains": [
+    "lulustream.com",
+    "luluvdo.com",
+    "luluvid.com",
+    "lulu.st",
+    "tnmr.org",
+    "lulu0.ovh",
+    "luluvdoo.com",
+    "cdn1.site"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "MaxstreamVideo",
+   "domains": [
+    "maxstream.video",
+    "wstream.video",
+    "download.wstream.video",
+    "video.wstream.video"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": 1,
+   "custom": [
+    "doFree",
+    "getDllink",
+    "handlePremium"
+   ]
+  },
+  {
+   "id": "MediaCm",
+   "domains": [
+    "media.cm",
+    "cloudvideo.tv"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "Mega4upCom",
+   "domains": [
+    "mega4upload.net",
+    "mega4upload.com",
+    "mega4up.org",
+    "mega4up.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1,
+   "custom": [
+    "findFormDownload1Free"
+   ]
+  },
+  {
+   "id": "MegadbNet",
+   "domains": [
+    "megadb.net"
+   ],
+   "maxChunks": -10,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "MexashareCom",
+   "domains": [
+    "mexa.sh",
+    "mexashare.com",
+    "mx-sh.net",
+    "mexashare"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 1,
+   "custom": [
+    "checkErrors",
+    "handleCaptcha"
+   ]
+  },
+  {
+   "id": "MiravdCom",
+   "domains": [
+    "miravd.com",
+    "miravid.club"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "MixSharedCom",
+   "domains": [
+    "mixshared.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "ModsbaseCom",
+   "domains": [
+    "modsbase.com",
+    "uploadfiles.eu",
+    "modsbasedl.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "MoondlCom",
+   "domains": [
+    "moondl.com"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": 1
+  },
+  {
+   "id": "Mp4UploadCom",
+   "domains": [
+    "mp4upload.com"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": 1,
+   "custom": [
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "Mp4plusOrg",
+   "domains": [
+    "mp4plus.org"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "MwdyCc",
+   "domains": [
+    "mwdy.cc",
+    "mwdy.org"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "MyfilesOnl",
+   "domains": [
+    "myfiles.onl"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "MyqloudOrg",
+   "domains": [
+    "myqloud.org"
+   ],
+   "maxChunks": -5,
+   "resumable": true,
+   "maxDownloads": 1,
+   "custom": [
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "NelionMe",
+   "domains": [
+    "nelion.me"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": 10
+  },
+  {
+   "id": "NowplayTo",
+   "domains": [
+    "nowplay.to"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "NxtfiledropCom",
+   "domains": [
+    "nxtfiledrop.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "ObligaoCom",
+   "domains": [
+    "obligao.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "OkprimeSite",
+   "domains": [
+    "okprime.site"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "OnevidXyz",
+   "domains": [
+    "1vid.xyz"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "PicbaronCom",
+   "domains": [
+    "picbaron.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "PowVideoNet",
+   "domains": [
+    "powv1deo.cc",
+    "powvideo.net",
+    "powvideo.xyz"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "findFormDownload1Free",
+    "findFormDownload2Free",
+    "handleCaptcha"
+   ]
+  },
+  {
+   "id": "PreFilesCom",
+   "domains": [
+    "prefiles.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors",
+    "getDllink"
+   ]
+  },
+  {
+   "id": "PubgFileSi",
+   "domains": [
+    "pubg-file.si"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "QtyFilesCom",
+   "domains": [
+    "qtyfiles.com"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": -1
+  },
+  {
+   "id": "RapidFileShareNet",
+   "domains": [
+    "rapidfileshare.net"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 1
+  },
+  {
+   "id": "RapidbytezCom",
+   "domains": [
+    "rapidbytez.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors"
+   ]
+  },
+  {
+   "id": "RapidcloudCc",
+   "domains": [
+    "rapidcloud.cc"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": -1
+  },
+  {
+   "id": "RapidrarCom",
+   "domains": [
+    "rapidrar.com",
+    "rapidrar.cr",
+    "rapidrar.xyz",
+    "rapidrar.cloud",
+    "rapidrar.online",
+    "rapidrar.space",
+    "rapidrar.site"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 2,
+   "custom": [
+    "findFormDownload1Free"
+   ]
+  },
+  {
+   "id": "RareFileNet",
+   "domains": [
+    "rarefile.net"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": -1
+  },
+  {
+   "id": "RarlinkCom",
+   "domains": [
+    "rarlink.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": 1
+  },
+  {
+   "id": "RepackcloudCom",
+   "domains": [
+    "repackcloud.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "RobofileNet",
+   "domains": [
+    "robofile.net"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "SafedockIo",
+   "domains": [
+    "safedock.io"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "SakurafileCom",
+   "domains": [
+    "sakurafile.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": 1
+  },
+  {
+   "id": "SavefilesCom",
+   "domains": [
+    "savefiles.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "custom": [
+    "checkErrors",
+    "findFormDownload2Free"
+   ]
+  },
+  {
+   "id": "SeedgrabberCom",
+   "domains": [
+    "seedgrabber.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "handlePremium"
+   ]
+  },
+  {
+   "id": "SendNow",
+   "domains": [
+    "send.now",
+    "send.cm",
+    "sendit.cloud",
+    "usersfiles.com",
+    "tusfiles.com",
+    "tusfiles.net",
+    "userscloud.com",
+    "usercdn.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 10,
+   "custom": [
+    "checkErrors",
+    "doFree",
+    "handlePremium"
+   ]
+  },
+  {
+   "id": "SharemodsCom",
+   "domains": [
+    "sharemods.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1,
+   "custom": [
+    "doFree",
+    "getDllink"
+   ]
+  },
+  {
+   "id": "SilkfilesCom",
+   "domains": [
+    "silkfile.com",
+    "silkfiles.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "Streama2zCom",
+   "domains": [
+    "streama2z.com",
+    "streama2z.xyz",
+    "streama2z.pro"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors"
+   ]
+  },
+  {
+   "id": "StreamhbNet",
+   "domains": [
+    "streamhb.net"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "StreamplayTo",
+   "domains": [
+    "streamplay.to",
+    "streampiay.me",
+    "steanplay.cc",
+    "streamp1ay.me",
+    "streamp1ay.cc",
+    "streamplay.gdn",
+    "streamplay.me",
+    "streanplay.cc",
+    "stre4mplay.one",
+    "stre4mpay.one",
+    "straemplay.org"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": 1,
+   "custom": [
+    "findFormDownload1Free",
+    "findFormDownload2Free",
+    "getDllink",
+    "handleCaptcha"
+   ]
+  },
+  {
+   "id": "StreamrubyCom",
+   "domains": [
+    "streamruby.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "StreamwishCom",
+   "domains": [
+    "streamwish.com",
+    "streamwish.to",
+    "awish.pro",
+    "embedwish.com",
+    "wishembed.pro",
+    "vidcloud.top",
+    "gdplry.online",
+    "jwplayerhls.com",
+    "wishonly.site",
+    "dwish.pro",
+    "cloudwish.xyz",
+    "playerwish.com",
+    "rapidplayers.com",
+    "streamhg.com",
+    "hlsflex.com",
+    "swiftplayers.com",
+    "ultpreplayer.com",
+    "recordplay.biz",
+    "hgplaycdn.com",
+    "hailindihg.com",
+    "auvexiug.com",
+    "davioad.com",
+    "habetar.com",
+    "hglink.to",
+    "kravaxxa.com",
+    "zuvioeb.com",
+    "tryzendm.com",
+    "yuguaab.com",
+    "xenolyzb.com",
+    "guxhag.com",
+    "guxhag.hg",
+    "dumbalag.com",
+    "haxloppd.com",
+    "medixiru.com",
+    "hgcloud.to",
+    "hgplayer.sbs",
+    "audinifer.com",
+    "vibuxer.com",
+    "hanerix.com",
+    "masukestin.com",
+    "playnixes.com",
+    "hglamioz.com",
+    "niramirus.com",
+    "huntrexus.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors"
+   ]
+  },
+  {
+   "id": "SubyShareCom",
+   "domains": [
+    "subyshare.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 3,
+   "custom": [
+    "checkErrors",
+    "handleCaptcha",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "SupervideoTv",
+   "domains": [
+    "supervideo.cc",
+    "supervideo.tv"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 7
+  },
+  {
+   "id": "TakefileLink",
+   "domains": [
+    "takefile.link",
+    "filecheck.link"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors"
+   ]
+  },
+  {
+   "id": "TengbDownload",
+   "domains": [
+    "10gb.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "TerabytezOrg",
+   "domains": [
+    "terabytez.org"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 1
+  },
+  {
+   "id": "TheTube",
+   "domains": [
+    "the.tube",
+    "they.tube"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "ThefileslockerCom",
+   "domains": [
+    "thefileslocker.com"
+   ],
+   "maxChunks": -8,
+   "resumable": true,
+   "maxDownloads": 1
+  },
+  {
+   "id": "TheuserCloud",
+   "domains": [
+    "theuser.cloud"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": 1
+  },
+  {
+   "id": "TransfazeCom",
+   "domains": [
+    "transfaze.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "TstorageInfo",
+   "domains": [
+    "tstorage.info"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "TurbovidMe",
+   "domains": [
+    "turbovid.me"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "UbiqfileCom",
+   "domains": [
+    "ubiqfile.com"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": 1,
+   "custom": [
+    "handleCaptcha"
+   ]
+  },
+  {
+   "id": "Up4everCom",
+   "domains": [
+    "upload-4ever.com",
+    "up-4ever.org",
+    "up-4ever.com",
+    "up-4ever.net",
+    "up-4.net"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 1
+  },
+  {
+   "id": "Up4funTop",
+   "domains": [
+    "up4fun.top"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "Up4streamCom",
+   "domains": [
+    "up4stream.com",
+    "ups2up.fun"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "UpLoadIo",
+   "domains": [
+    "up-load.io"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "UpboltTo",
+   "domains": [
+    "upbolt.to"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "Upload42Com",
+   "domains": [
+    "upload42.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 1
+  },
+  {
+   "id": "UploadBoyCom",
+   "domains": [
+    "uploadboy.com",
+    "uploadboy.me",
+    "uploadb.me"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 1,
+   "custom": [
+    "getDllink",
+    "handleCaptcha",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "UploadCloudPro",
+   "domains": [
+    "uploadcloud.pro"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "UploadTn",
+   "domains": [
+    "upload.tn"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors"
+   ]
+  },
+  {
+   "id": "UploadaoCom",
+   "domains": [
+    "uploadao.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "UploadflixCc",
+   "domains": [
+    "uploadflix.cc",
+    "uploadflix.com",
+    "dl.uploadflix.cc",
+    "dl.uploadflix.com",
+    "1uploadflix.net"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "UploadhiveCom",
+   "domains": [
+    "uploadhive.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "UploadhubWf",
+   "domains": [
+    "uploadhub.dad",
+    "uploadhub.wf",
+    "uploadhub.ws"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors"
+   ]
+  },
+  {
+   "id": "UploadkingNet",
+   "domains": [
+    "uploadking.net"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "UploadmallCom",
+   "domains": [
+    "uploadmall.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "UploadrarCom",
+   "domains": [
+    "uploadrar.com",
+    "uploadrar.net",
+    "cloud.getpczone.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "doFree",
+    "getDllink"
+   ]
+  },
+  {
+   "id": "UploadscloudCom",
+   "domains": [
+    "uploadscloud.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "UploadyIo",
+   "domains": [
+    "uploady.io",
+    "uploadydl.com",
+    "uploady.to"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": 1,
+   "custom": [
+    "checkErrors",
+    "doFree",
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "UplodIr",
+   "domains": [
+    "uplod.ir"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "UptomegaMe",
+   "domains": [
+    "uptomega.net",
+    "uptomega.me",
+    "uptomega.com"
+   ],
+   "maxChunks": -5,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "UpzurCom",
+   "domains": [
+    "upzur.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "UqloadCom",
+   "domains": [
+    "uqload.is",
+    "uqload.bz",
+    "uqload.cx",
+    "uqload.net",
+    "uqload.ws",
+    "uqload.to",
+    "uqload.io",
+    "uqload.co",
+    "uqload.com",
+    "uqload.cc"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": 2
+  },
+  {
+   "id": "UsersdriveCom",
+   "domains": [
+    "usersdrive.com"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": 1,
+   "custom": [
+    "handleCaptcha"
+   ]
+  },
+  {
+   "id": "UupbomCom",
+   "domains": [
+    "uupbom.com",
+    "upbaam.com",
+    "upbam.org",
+    "uppom.live"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "VeevTo",
+   "domains": [
+    "veev.to",
+    "doods.to"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "VidbmCom",
+   "domains": [
+    "vedbam.xyz",
+    "vidbam.org",
+    "vidbm.com",
+    "vidbom.com",
+    "vidbem.com",
+    "vadbam.net"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "VidelloNet",
+   "domains": [
+    "vidello.net"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "VidhideCom",
+   "domains": [
+    "vidhide.com",
+    "vidhidepro.com",
+    "vidhidehub.com",
+    "moflix-stream.click",
+    "javplaya.com",
+    "filelions.to",
+    "filelions.com",
+    "filelions.online",
+    "filelions.site",
+    "alions.pro",
+    "azipcdn.com",
+    "vidhidepre.com",
+    "dlions.pro",
+    "playrecord.biz",
+    "mycloudz.cc",
+    "vidhideplus.com",
+    "nikaplayer.com",
+    "niikaplayerr.com",
+    "vidhidefast.com",
+    "seraphinapl.com",
+    "taylorplayer.com",
+    "dinisglows.com",
+    "dingtezuni.com",
+    "dintezuvio.com",
+    "dhtpre.com",
+    "callistanise.com",
+    "mivalyo.com",
+    "minochinos.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors"
+   ]
+  },
+  {
+   "id": "VidmolyTo",
+   "domains": [
+    "vidmoly.me",
+    "vidmoly.biz",
+    "vidmoly.to",
+    "vidmoly.net"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "checkErrors"
+   ]
+  },
+  {
+   "id": "VidnestIo",
+   "domains": [
+    "vidnest.live",
+    "vidnest.io"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "VidozaNet",
+   "domains": [
+    "vidoza.net",
+    "vidoza.org",
+    "videzz.net"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 5
+  },
+  {
+   "id": "VidrobaCom",
+   "domains": [
+    "vidoba.org",
+    "vidroba.com",
+    "vidoba.net"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": 1
+  },
+  {
+   "id": "VidsharTv",
+   "domains": [
+    "vidshar.org",
+    "vedshare.com",
+    "vidshar.tv",
+    "viidshar.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "VidzyOrg",
+   "domains": [
+    "vidzy.org"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "VinovoTo",
+   "domains": [
+    "vinovo.to",
+    "vinovo.si"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "doFree"
+   ]
+  },
+  {
+   "id": "VipfileCc",
+   "domains": [
+    "vipfile.cc"
+   ],
+   "maxChunks": 1,
+   "maxDownloads": -1
+  },
+  {
+   "id": "ViprIm",
+   "domains": [
+    "vipr.im"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "VtubeTo",
+   "domains": [
+    "vtube.network",
+    "vtube.to",
+    "vtplayer.net",
+    "vtbe.to"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "VudeoWs",
+   "domains": [
+    "vudeo.ws"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "WavehdCom",
+   "domains": [
+    "tenstream.net",
+    "wavehd.com",
+    "bigwings.io"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "WayshareCc",
+   "domains": [
+    "wayshare.cc"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "WetafilesCom",
+   "domains": [
+    "wetafiles.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "WipFilesNet",
+   "domains": [
+    "wipfiles.net"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "WorldBytezCom",
+   "domains": [
+    "worldbytez.xyz",
+    "worldbytez.info",
+    "worldbytez.net",
+    "worldbytez.com",
+    "worldbytez.org"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": 1,
+   "custom": [
+    "doFree"
+   ]
+  },
+  {
+   "id": "WorldFilesCom",
+   "domains": [
+    "world-files.com"
+   ],
+   "maxChunks": 0,
+   "resumable": false,
+   "maxDownloads": 1
+  },
+  {
+   "id": "XdiskSite",
+   "domains": [
+    "xdisk.site"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "XfilesharingCom",
+   "domains": [
+    "xfilesharing.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "XimagesharingCom",
+   "domains": [
+    "ximagesharing.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "maxDownloads": -1
+  },
+  {
+   "id": "XtapesPorn",
+   "domains": [
+    "xtapes.porn"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  },
+  {
+   "id": "XubsterCom",
+   "domains": [
+    "xubster.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "doFree",
+    "handleCaptcha"
+   ]
+  },
+  {
+   "id": "XvideosharingCom",
+   "domains": [
+    "xvideosharing.com"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "requestFileInformation"
+   ]
+  },
+  {
+   "id": "XvideosharingCom_vidspeed",
+   "domains": [
+    "vidspeed.org",
+    "vidspeeds.com",
+    "vidspeed.net"
+   ],
+   "maxChunks": -2,
+   "resumable": true,
+   "maxDownloads": -1,
+   "custom": [
+    "requestFileInformation"
+   ]
+  },
+  {
+   "id": "XxembedCom",
+   "domains": [
+    "xxembed.com",
+    "rutood.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "maxDownloads": -1
+  }
+ ],
+ "YetiShareCore": [
+  {
+   "id": "AflamWatch",
+   "domains": [
+    "fs.aflam.watch"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "AnonsharingCom",
+   "domains": [
+    "anonsharing.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "AnonzipCom",
+   "domains": [
+    "anonzip.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "AsdfilesCom",
+   "domains": [
+    "asdocs.net",
+    "asdfiles.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "BippuploadCom",
+   "domains": [
+    "bippupload.com"
+   ],
+   "maxChunks": 1
+  },
+  {
+   "id": "BowfileCom",
+   "domains": [
+    "bowfile.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "BrfilesCom",
+   "domains": [
+    "brfiles.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "custom": [
+    "handlePremium"
+   ]
+  },
+  {
+   "id": "CnubisCom",
+   "domains": [
+    "cnubis.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "CyberfileSu",
+   "domains": [
+    "cyberfile.me",
+    "cyberfile.su"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "DasanCo",
+   "domains": [
+    "dasan.co"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "DevdriveCloud",
+   "domains": [
+    "devdrive.cloud"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "DosyauploadCom",
+   "domains": [
+    "dosyaupload.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "DrFarfarNet",
+   "domains": [
+    "dr-farfar.net"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "DriveSgpediaCom",
+   "domains": [
+    "drive.sgpedia.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "Dz4upCom",
+   "domains": [
+    "dz4up1.com",
+    "dz4up.com",
+    "speed4up.net",
+    "speed4up.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false
+  },
+  {
+   "id": "FastuploadIo",
+   "domains": [
+    "fastupload.io"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "FhscriptCom",
+   "domains": [
+    "fhscript.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "FileknotIo",
+   "domains": [
+    "fileknot.io"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "FilestankCom",
+   "domains": [
+    "filestank.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "FilezogCom",
+   "domains": [
+    "filezog.com"
+   ],
+   "maxChunks": 1,
+   "resumable": false
+  },
+  {
+   "id": "FireloadCom",
+   "domains": [
+    "fireload.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "custom": [
+    "regexWaittime"
+   ]
+  },
+  {
+   "id": "GfxfileCom",
+   "domains": [
+    "gfxfile.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "IceyfileCom",
+   "domains": [
+    "iceyfile.com",
+    "iceyfile.net"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "ImgpornTo",
+   "domains": [
+    "imgporn.to",
+    "thotdrive.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "IwaraZip",
+   "domains": [
+    "iwara.zip"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "KoramaupCom",
+   "domains": [
+    "koramaup.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "LoadedfilesOrg",
+   "domains": [
+    "loadedfiles.net",
+    "loadedfiles.st",
+    "loadedfiles.org"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "MediafilesCc",
+   "domains": [
+    "mediafile.cc",
+    "mediafiles.cc",
+    "mediafile.cloud",
+    "mediafiles.club"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "MegaupNet",
+   "domains": [
+    "megaup.net"
+   ],
+   "maxChunks": 0,
+   "resumable": true,
+   "custom": [
+    "checkErrors",
+    "getDllink"
+   ]
+  },
+  {
+   "id": "MundofileCom",
+   "domains": [
+    "mundofile.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "MundofileInfo",
+   "domains": [
+    "mundofile.info"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "NetnaijafilesXyz",
+   "domains": [
+    "netnaijafiles.xyz"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "OneCloudfileCom",
+   "domains": [
+    "1cloudfile.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "OneFilesharingCom",
+   "domains": [
+    "1filesharing.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "RapidshareIo",
+   "domains": [
+    "rapidshare.io"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "RapidstoneCom",
+   "domains": [
+    "rapidstone.com"
+   ],
+   "maxChunks": 1
+  },
+  {
+   "id": "SbuploadCom",
+   "domains": [
+    "sbupload.com",
+    "usersdownload.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "ShareplaceOrg",
+   "domains": [
+    "shareplace.org",
+    "shareplace.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "custom": [
+    "checkErrors",
+    "handlePremium",
+    "requestFileInformation"
+   ]
+  },
+  {
+   "id": "SharingWtf",
+   "domains": [
+    "sharing.wtf",
+    "dirrtyshar.es",
+    "filesharing.io"
+   ],
+   "maxChunks": 1,
+   "resumable": false,
+   "custom": [
+    "checkErrors",
+    "handlePremium"
+   ]
+  },
+  {
+   "id": "SqzfileCom",
+   "domains": [
+    "sqzfile.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "SyncsOnline",
+   "domains": [
+    "syncs.online"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "TransferioPl",
+   "domains": [
+    "transferio.pl"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "TruefileCc",
+   "domains": [
+    "truefile.cc"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "UdropCom",
+   "domains": [
+    "udrop.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "UltimboxOrg",
+   "domains": [
+    "ultimbox.org",
+    "ultimbox.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "UploadgoodOnline",
+   "domains": [
+    "uploadgood.online"
+   ],
+   "maxChunks": -2,
+   "resumable": true
+  },
+  {
+   "id": "VeeosyncCom",
+   "domains": [
+    "veeosync.com"
+   ],
+   "maxChunks": 1,
+   "resumable": true
+  },
+  {
+   "id": "WdfilesRu",
+   "domains": [
+    "wdfiles.ru",
+    "wdho.ru"
+   ],
+   "maxChunks": 1,
+   "resumable": true,
+   "custom": [
+    "regexWaittime",
+    "requestFileInformation"
+   ]
+  },
+  {
+   "id": "WrzucajPl",
+   "domains": [
+    "wrzucaj.pl"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "XenuploadCom",
+   "domains": [
+    "xenupload.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  },
+  {
+   "id": "YetifileCom",
+   "domains": [
+    "yetifile.com",
+    "ninefile.com"
+   ],
+   "maxChunks": 0,
+   "resumable": true
+  }
+ ],
+ "KernelVideoSharingComV2": [
+  {
+   "id": "AdultdeepfakesCom",
+   "domains": [
+    "adultdeepfakes.com"
+   ]
+  },
+  {
+   "id": "AnypornCom",
+   "domains": [
+    "anyporn.com"
+   ]
+  },
+  {
+   "id": "AnysexCom",
+   "domains": [
+    "anysex.com"
+   ],
+   "maxChunks": 1
+  },
+  {
+   "id": "BoundhubCom",
+   "domains": [
+    "boundhub.com"
+   ]
+  },
+  {
+   "id": "BravopornCom",
+   "domains": [
+    "bravoporn.com"
+   ]
+  },
+  {
+   "id": "CamVideosOrg",
+   "domains": [
+    "camvideos.org"
+   ]
+  },
+  {
+   "id": "CamwhoresbayCom",
+   "domains": [
+    "camwhoresbay.com"
+   ]
+  },
+  {
+   "id": "CamwhoreshdCom",
+   "domains": [
+    "camwhoreshd.com",
+    "cwtvembeds.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "CartoontubeXxx",
+   "domains": [
+    "cartoontube.xxx"
+   ]
+  },
+  {
+   "id": "CrazypornXxx",
+   "domains": [
+    "crazyporn.xxx"
+   ]
+  },
+  {
+   "id": "EachpornCom",
+   "domains": [
+    "eachporn.com"
+   ]
+  },
+  {
+   "id": "FapalityCom",
+   "domains": [
+    "fapality.com"
+   ]
+  },
+  {
+   "id": "HdtubePorn",
+   "domains": [
+    "hdtube.porn"
+   ]
+  },
+  {
+   "id": "JapanWhoresCom",
+   "domains": [
+    "japan-whores.com"
+   ]
+  },
+  {
+   "id": "JavbangersCom",
+   "domains": [
+    "javbangers.com",
+    "javwhores.com"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComBabestubeCom",
+   "domains": [
+    "babestube.com",
+    "foxytube.com",
+    "moviesand.com",
+    "submityourflicks.com"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComCamhubCc",
+   "domains": [
+    "camhub.cc",
+    "camhub.world",
+    "camhub.one",
+    "camhub.tv",
+    "zzpornozz.xyz"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComCamstreamsTv",
+   "domains": [
+    "camstreams.tv"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComHomoXxx",
+   "domains": [
+    "homo.xxx"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComThepornbangCom",
+   "domains": [
+    "thepornbang.com"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComThepornbangCom_porngrey",
+   "domains": [
+    "porngrey.net"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2AbxxxCom",
+   "domains": [
+    "abxxx.com"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2FapnadoXxx",
+   "domains": [
+    "fapnado.xxx",
+    "fapnado.com"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HclipsCom",
+   "domains": [
+    "hclips.com",
+    "videohclips.com",
+    "privatehomeclips.com"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault",
+   "domains": [
+    "sleazyneasy.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_pornwhite",
+   "domains": [
+    "pornwhite.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_voyeurhit",
+   "domains": [
+    "voyeurhit.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_hotmovs",
+   "domains": [
+    "hotmovs.com",
+    "hotmovs.tube"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_porndr",
+   "domains": [
+    "porndr.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_momvids",
+   "domains": [
+    "momvids.com",
+    "motherporno.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_wankoz",
+   "domains": [
+    "wankoz.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_zbporn",
+   "domains": [
+    "zbporn.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_xozilla",
+   "domains": [
+    "xozilla.com",
+    "xozilla.xxx"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_fetishshrine",
+   "domains": [
+    "fetishshrine.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_sheshaft",
+   "domains": [
+    "sheshaft.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_yeswegays",
+   "domains": [
+    "yeswegays.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_analdin",
+   "domains": [
+    "analdin.com",
+    "analdin.xxx"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_vikiporn",
+   "domains": [
+    "vikiporn.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_katestube",
+   "domains": [
+    "katestube.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_bravoteens",
+   "domains": [
+    "bravoteens.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_onlygayvideo",
+   "domains": [
+    "onlygayvideo.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_mylust",
+   "domains": [
+    "mylust.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_yourporngod",
+   "domains": [
+    "yourporngod.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_everydayporn",
+   "domains": [
+    "everydayporn.co"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_upornia",
+   "domains": [
+    "upornia.com",
+    "upornia.tube"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_vr",
+   "domains": [
+    "vr.pornhat.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_xxxymovies",
+   "domains": [
+    "xxxymovies.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_needgayporn",
+   "domains": [
+    "needgayporn.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_pornicom",
+   "domains": [
+    "pornicom.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_tubepornclassic",
+   "domains": [
+    "tubepornclassic.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_deviants",
+   "domains": [
+    "deviants.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_faapy",
+   "domains": [
+    "faapy.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_nudez",
+   "domains": [
+    "nudez.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_pornomovies",
+   "domains": [
+    "pornomovies.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_3movs",
+   "domains": [
+    "3movs.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_gaysearch",
+   "domains": [
+    "gaysearch.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_punishbang",
+   "domains": [
+    "punishbang.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_pornfd",
+   "domains": [
+    "pornfd.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_fpo",
+   "domains": [
+    "fpo.xxx"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_footstockings",
+   "domains": [
+    "footstockings.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_wild-pornstars",
+   "domains": [
+    "wild-pornstars.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_4kporn",
+   "domains": [
+    "4kporn.xxx"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_bigwank",
+   "domains": [
+    "bigwank.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_xxxshake",
+   "domains": [
+    "xxxshake.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_xgroovy",
+   "domains": [
+    "xgroovy.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_heavyfetish",
+   "domains": [
+    "heavyfetish.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_fapcat",
+   "domains": [
+    "fapcat.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_hoes",
+   "domains": [
+    "hoes.tube"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_maturetubehere",
+   "domains": [
+    "maturetubehere.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_homemade",
+   "domains": [
+    "homemade.xxx"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_xhand",
+   "domains": [
+    "xhand.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_pornditt",
+   "domains": [
+    "pornditt.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_donkparty",
+   "domains": [
+    "donkparty.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_femefun",
+   "domains": [
+    "femefun.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_pervertium",
+   "domains": [
+    "pervertium.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_havefunporn",
+   "domains": [
+    "havefunporn.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_bdsmx",
+   "domains": [
+    "bdsmx.tube"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_thebussybandit",
+   "domains": [
+    "thebussybandit.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_baddiesonly",
+   "domains": [
+    "baddiesonly.tv"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_shemale6",
+   "domains": [
+    "shemale6.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_urgayporn",
+   "domains": [
+    "urgayporn.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_gotgayporn",
+   "domains": [
+    "gotgayporn.com",
+    "bonertube.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_ah-me",
+   "domains": [
+    "ah-me.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_pornve",
+   "domains": [
+    "pornve.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_thegay",
+   "domains": [
+    "thegay.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_mrgay",
+   "domains": [
+    "mrgay.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_gayboystube",
+   "domains": [
+    "gayboystube.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_pornwex",
+   "domains": [
+    "pornwex.tv"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_x-tg",
+   "domains": [
+    "x-tg.tube"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_severeporn",
+   "domains": [
+    "severeporn.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_x-fetish",
+   "domains": [
+    "x-fetish.tube"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_gayporntube",
+   "domains": [
+    "gayporntube.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_cartoonporn",
+   "domains": [
+    "cartoonporn.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_cloudbate",
+   "domains": [
+    "cloudbate.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_xhand",
+   "domains": [
+    "xhand.net"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_megatube",
+   "domains": [
+    "megatube.xxx"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_cluset",
+   "domains": [
+    "cluset.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_bootyexpo",
+   "domains": [
+    "bootyexpo.net"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_xxbrits",
+   "domains": [
+    "xxbrits.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_porndd",
+   "domains": [
+    "porndd.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_x-video",
+   "domains": [
+    "x-video.tube"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_lesbian8",
+   "domains": [
+    "lesbian8.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_justporn",
+   "domains": [
+    "justporn.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_w4nkr",
+   "domains": [
+    "w4nkr.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_fullpornxxx",
+   "domains": [
+    "fullpornxxx.net"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_fullhd",
+   "domains": [
+    "fullhd.xxx"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_fapbox",
+   "domains": [
+    "fapbox.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_nakedtube",
+   "domains": [
+    "nakedtube.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_txxx",
+   "domains": [
+    "txxx.porn"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_xmegadrive",
+   "domains": [
+    "xmegadrive.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_alphaporno",
+   "domains": [
+    "alphaporno.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_hellporno",
+   "domains": [
+    "hellporno.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_bravotube",
+   "domains": [
+    "bravotube.net"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_shameless",
+   "domains": [
+    "shameless.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_femdomtb",
+   "domains": [
+    "femdomtb.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_wow",
+   "domains": [
+    "wow.xxx"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_neporn",
+   "domains": [
+    "neporn.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault_ooxxx",
+   "domains": [
+    "ooxxx.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault2",
+   "domains": [
+    "camvideos.tv"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault2_alotporn",
+   "domains": [
+    "alotporn.com"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault4",
+   "domains": [
+    "watcherotic.com"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2HostsDefault4_pimpbunny",
+   "domains": [
+    "pimpbunny.com"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2NudeyogaNet",
+   "domains": [
+    "nudeyoga.net"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2TabootubeXxx",
+   "domains": [
+    "tabootube.xxx"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComV2TheclassicpornCom",
+   "domains": [
+    "theclassicporn.com"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingComWatchpornTo",
+   "domains": [
+    "watchporn.to"
+   ],
+   "maxChunks": -4
+  },
+  {
+   "id": "KernelVideoSharingFapnowXxx",
+   "domains": [
+    "fapnow.xxx"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingHdzogCom",
+   "domains": [
+    "hdzog.com",
+    "videohdzog.com",
+    "hdzog.tube"
+   ],
+   "maxChunks": 1
+  },
+  {
+   "id": "KernelVideoSharingLove4pornCom",
+   "domains": [
+    "love4porn.com"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingMypornhereCom",
+   "domains": [
+    "mypornhere.com"
+   ],
+   "maxChunks": 1
+  },
+  {
+   "id": "KernelVideoSharingNudogramCom",
+   "domains": [
+    "nudogram.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingPornadoXxx",
+   "domains": [
+    "pornado.xxx",
+    "private-shows.net",
+    "anon-v.com",
+    "anon-v.lol",
+    "anon-v.net",
+    "anon-v.org",
+    "anon-v.ru",
+    "anon-v.su",
+    "anon-v.to",
+    "anon-v.tube",
+    "anon-v.vip",
+    "anon-v.wtf",
+    "anon-v.xyz"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingPorntnCom",
+   "domains": [
+    "porntn.com"
+   ]
+  },
+  {
+   "id": "KernelVideoSharingSexwebvideoCom",
+   "domains": [
+    "sexwebvideo.com",
+    "sexwebvideo.net",
+    "videowebcam.tv"
+   ],
+   "maxChunks": 1
+  },
+  {
+   "id": "KernelVideoSharingShooshtimeCom",
+   "domains": [
+    "shooshtime.com"
+   ]
+  },
+  {
+   "id": "KvsDemoCom",
+   "domains": [
+    "kvs-demo.com"
+   ]
+  },
+  {
+   "id": "MambahuyambaCom",
+   "domains": [
+    "vip.huyamba.mobi",
+    "caramba.huyamba.mobi",
+    "mobi.huyamba.mobi",
+    "rt.huyamba.mobi",
+    "x.huyamba.mobi",
+    "lx.mambahuyamba.com",
+    "web.mambahuyamba.com",
+    "sx.mambahuyamba.com",
+    "deep.mambahuyamba.com",
+    "most.mambahuyamba.com",
+    "huyamba.info",
+    "pornogovno.me"
+   ]
+  },
+  {
+   "id": "MilffoxCom",
+   "domains": [
+    "milffox.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "MulherespeladasvipCom",
+   "domains": [
+    "mulherespeladasvip.com"
+   ]
+  },
+  {
+   "id": "OkXxx",
+   "domains": [
+    "ok.xxx"
+   ]
+  },
+  {
+   "id": "PerfectgirlsXxx",
+   "domains": [
+    "perfectgirls.xxx",
+    "perfectgirls.net",
+    "perfektdamen.co"
+   ]
+  },
+  {
+   "id": "PervclipsCom",
+   "domains": [
+    "pervclips.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "Porn00Org",
+   "domains": [
+    "porn00.org"
+   ],
+   "maxChunks": -2
+  },
+  {
+   "id": "PornalinCom",
+   "domains": [
+    "pornalin.com"
+   ]
+  },
+  {
+   "id": "PornbimboCom",
+   "domains": [
+    "pornbimbo.com"
+   ]
+  },
+  {
+   "id": "PorngemCom",
+   "domains": [
+    "porngem.com"
+   ]
+  },
+  {
+   "id": "PorngoCom",
+   "domains": [
+    "porngo.com"
+   ]
+  },
+  {
+   "id": "PornhatCom",
+   "domains": [
+    "pornhat.com"
+   ]
+  },
+  {
+   "id": "PornhitsCom",
+   "domains": [
+    "pornhits.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "PornktuBe",
+   "domains": [
+    "pornktube.com",
+    "pornktube.club",
+    "pornktube.tv",
+    "pornktube.vip",
+    "pornktu.be"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "PorntrexCom",
+   "domains": [
+    "porntrex.com"
+   ]
+  },
+  {
+   "id": "PorntryCom",
+   "domains": [
+    "porntry.com"
+   ]
+  },
+  {
+   "id": "Rule34videoCom",
+   "domains": [
+    "rule34video.com",
+    "rule34video.party"
+   ]
+  },
+  {
+   "id": "Rule34videoCom_rule34gen",
+   "domains": [
+    "rule34gen.com"
+   ]
+  },
+  {
+   "id": "Sex3Com",
+   "domains": [
+    "sex3.com"
+   ]
+  },
+  {
+   "id": "SexalarabCom",
+   "domains": [
+    "sexalarab.com"
+   ]
+  },
+  {
+   "id": "SexvidXxx",
+   "domains": [
+    "sexvid.xxx"
+   ]
+  },
+  {
+   "id": "SexvidXxx_pornid",
+   "domains": [
+    "pornid.xxx"
+   ]
+  },
+  {
+   "id": "SunPornoCom",
+   "domains": [
+    "sunporno.com"
+   ]
+  },
+  {
+   "id": "TheyarehugeCom",
+   "domains": [
+    "theyarehuge.com",
+    "tryboobs.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "ThisvidCom",
+   "domains": [
+    "thisvid.com"
+   ]
+  },
+  {
+   "id": "ThothubOrg",
+   "domains": [
+    "thothub.org",
+    "thothub.to"
+   ]
+  },
+  {
+   "id": "TktubeCom",
+   "domains": [
+    "tktube.com"
+   ]
+  },
+  {
+   "id": "TubewolfCom",
+   "domains": [
+    "tubewolf.com"
+   ]
+  },
+  {
+   "id": "TxxxCom",
+   "domains": [
+    "txxx.com",
+    "txxx.me",
+    "tubecup.com",
+    "videotxxx.com",
+    "txxx.tube",
+    "txxxporn.tube"
+   ]
+  },
+  {
+   "id": "UipornCom",
+   "domains": [
+    "uiporn.com"
+   ]
+  },
+  {
+   "id": "VeryfreepornCom",
+   "domains": [
+    "veryfreeporn.com"
+   ]
+  },
+  {
+   "id": "VideocelebsNet",
+   "domains": [
+    "videocelebs.net"
+   ]
+  },
+  {
+   "id": "VjavCom",
+   "domains": [
+    "vjav.com"
+   ]
+  },
+  {
+   "id": "WatchMdhTo",
+   "domains": [
+    "fyxxr.to",
+    "watchdirty.org",
+    "watchdirty.is",
+    "watchdirty.to",
+    "watchmdh.to"
+   ],
+   "maxChunks": 1,
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "WatchMdhTo_mdhstream",
+   "domains": [
+    "mdhstream.cc",
+    "fyxstream.cc"
+   ],
+   "maxChunks": 1,
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "WatchMdhTo_mdhporn",
+   "domains": [
+    "mdhporn.co",
+    "fyxporn.co"
+   ],
+   "maxChunks": 1,
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "WebcamsbabeCom",
+   "domains": [
+    "sexcams-24.com",
+    "webcamsbabe.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "WebcamsbabeCom_privaterecords",
+   "domains": [
+    "privaterecords.life",
+    "private-records.com",
+    "webcamvau.com",
+    "privat-zapisi.biz"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "WhoreshubCom",
+   "domains": [
+    "whoreshub.com"
+   ],
+   "maxChunks": -2
+  },
+  {
+   "id": "XbabeCom",
+   "domains": [
+    "xbabe.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "XcafeCom",
+   "domains": [
+    "xcafe.com"
+   ],
+   "maxChunks": 1
+  },
+  {
+   "id": "XcumCom",
+   "domains": [
+    "xcum.com"
+   ]
+  },
+  {
+   "id": "XeroticaCom",
+   "domains": [
+    "xerotica.com"
+   ]
+  },
+  {
+   "id": "XfreehdCom",
+   "domains": [
+    "xfreehd.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "XtitsCom",
+   "domains": [
+    "xtits.com",
+    "xtits.xxx"
+   ]
+  },
+  {
+   "id": "XxxTube",
+   "domains": [
+    "x-x-x.tube"
+   ]
+  },
+  {
+   "id": "XxxsexzooCom",
+   "domains": [
+    "xxxsexzoo.com"
+   ],
+   "custom": [
+    "getDllink"
+   ]
+  },
+  {
+   "id": "YogapornNet",
+   "domains": [
+    "yogaporn.net"
+   ]
+  },
+  {
+   "id": "YourlustCom",
+   "domains": [
+    "yourlust.com"
+   ],
+   "maxChunks": 1
+  }
+ ]
+}

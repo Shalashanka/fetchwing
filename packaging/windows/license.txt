@@ -1,0 +1,22 @@
+Fetchwing - a modern download manager
+Copyright (C) 2026 Griseld Islamaj
+
+This program is free software: you can redistribute it and/or modify it under the terms of the
+GNU General Public License as published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details: https://www.gnu.org/licenses/gpl-3.0.html
+
+Fetchwing is an independent project. It is not affiliated with, endorsed by or sponsored by
+AppWork GmbH or the JDownloader project. "JDownloader" is a trademark of its respective owner.
+
+You are responsible for complying with the terms of service of the websites you download from
+and with copyright law in your country.
+
+Fetchwing contains no advertising, no bundled third-party software and no telemetry.
+It downloads one external helper on demand: yt-dlp (https://github.com/yt-dlp/yt-dlp,
+Unlicense) from its official GitHub releases, into your data folder.
+Archive extraction uses your installed 7-Zip (https://www.7-zip.org) if present.
+The Inter typeface is used under the SIL Open Font License (assets/fonts/Inter-OFL.txt).
